@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*marcxena mxares menius gapormeba */
+
+.main-nav {
+    margin-top: 10px;
+}
+
+.left-nav {
+    margin-left: 41px;
+
+}
+
+.left-nav a:hover{
+    text-decoration: none;
+}
+
+.left-logo{
+    float: left;
+}
+
+.left-text{
+    float: left;
+    font-weight: bold;
+    font-size: 33px;
+    margin-top: 11px;
+    margin-left: 15px;
+
+}
+/*marcxena mxares dasasruli*/
+.right-nav {
+    float: left;
+   
+}
+
+.right-nav a:hover{
+    text-decoration: none;
+}
+
+.nav-elements li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+.icon-lang{
+    position: absolute;
+    float: right;
+}
