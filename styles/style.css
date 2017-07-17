@@ -1,52 +1,142 @@
-body {
-    margin: 0;
-    padding: 0;
-}
-
 /*marcxena mxares menius gapormeba */
 
-.main-nav {
-    margin-top: 10px;
+.left-logo {
+    float: left;
+    margin-top: 8px;
+    /*margin-left: 157px;*/
+    /*margin-top: 8px;*/
+
+}
+
+.left-text p {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 29px;
+
 }
 
 .left-nav {
-    margin-left: 41px;
+    margin-left: 157px;
 
 }
 
-.left-nav a:hover{
+.left-nav a:hover {
     text-decoration: none;
 }
 
-.left-logo{
-    float: left;
-}
-
-.left-text{
-    float: left;
-    font-weight: bold;
-    font-size: 33px;
-    margin-top: 11px;
-    margin-left: 15px;
-
-}
 /*marcxena mxares dasasruli*/
+
+/*marjvena mxares elementis ganlageba*/
 .right-nav {
     float: left;
-   
+    margin-top: 34px;
+    margin-left: 10px;
+    position: relative;
 }
 
-.right-nav a:hover{
+.nav-elements {
+    float: left;
+}
+
+.nav-elements a:hover {
     text-decoration: none;
+    color: #cacaca;
+    padding-bottom: 7px;
+    border-image:   linear-gradient(to right, grey 25%, yellow 25%, yellow 50%,red 50%, red 75%, teal 75%) 5;
+
 }
 
 .nav-elements li {
     list-style: none;
-    display: inline-block;
+    display: inline;
+    margin-left: 20px;
 
 }
 
-.icon-lang{
+.nav-elements li a {
+    color: #202020;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*marjvena mxares elementis ganlagebis dasruleba*/
+
+/*enis iconebis cvlileba*/
+
+.icon-lang {
+    display: inline-block;
     position: absolute;
-    float: right;
+    width: 160px;
+}
+
+.icon-lang li {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    margin-left: 7px;
+
+}
+
+/*enis aikonebis cvlilebis dasruleba*/
+
+/*shevqmnat enebze hover*/
+
+.lang-geo {
+    background: url("../images/flag-georgia.png");
+    width: 26px;
+    height: 18px;
+}
+
+.lang-geo:hover {
+    background: url("../images/flag-rus.png");
+
+}
+
+.lang-ru {
+    background: url("../images/flag-rus.png");
+    width: 28px;
+    height: 18px;
+}
+
+.lang-ru:hover {
+    background: url("../images/flag-georgia.png");
+
+
+}
+
+.lang-en {
+    background: url("../images/flag-en.png");
+    width: 26px;
+    height: 18px;
+}
+
+.lang-en:hover {
+    background: url("../images/flag-rus.png");
+
+}
+
+/*hoveris dasasruli*/
+.header-slider{
+    position: relative;
+}
+
+
+
+.main-text  {
+    color: #ffffff;
+    position: absolute;
+    top:127px;
+    text-align: center;
+    margin-left: 251px;
+}
+
+.main-first{
+font-size: 29px;
+    font-weight: bold;
+}
+
+.main-second {
+    font-size: 29px;
+    padding-bottom: 9px;
 }
