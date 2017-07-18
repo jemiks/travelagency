@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoWonder</title>
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
 <div class="container-fluid">
@@ -13,14 +14,14 @@
 
     <div class="nav main-nav row">
         <!--marcxena mxares logos da texstis gaketeba-->
-        <div class="left-nav col-md-3 col-lg-3 ">
+        <div class="left-nav col-md-3 col-lg-3 col-xl-2 ">
             <a class="left-logo" href="#"><img src="images/logo.png" alt=""></a>
             <a class="left-text" href=""><p><span style="color: #005400">Wonder</span><span
                     style="color: #74028d">Tour</span></p></a>
         </div>
         <!--logos da texstis dasruleba-->
         <!--marjvena mxares menu-->
-        <div class="right-nav col-md-7 col-lg-7  ">
+        <div class="right-nav col-md-7 col-lg-7  col-xl-10">
             <ul class="nav-elements">
                 <li><a href="#">ჩვენ შესახებ</a></li>
                 <li><a href="#">ტურები</a></li>
@@ -29,24 +30,47 @@
                 <li><a href="#">კონტაქტი</a></li>
             </ul>
             <ul class="icon-lang">
-                <li><a href="#"><img class="lang-geo" alt=""></a></li>
-                <li><a href="#"><img class="lang-ru" alt=""></a></li>
-                <li><a href="#"><img class="lang-en" alt=""></a></li>
+                <li class="nav-lang"><a href="#"><img class="geo-icon" src="images/flag-ge.png" alt=""></a></li>
+                <li class="nav-lang"><a href="#"><img src="images/flag-rus.png" alt=""></a></li>
+                <li class="nav-lang"><a href="#"><img src="images/flag-en.png" alt=""></a></li>
             </ul>
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-md-11 header-slider">
-            <img src="images/carousel.png" alt="">
-            <div class="main-text">
-                <p class="main-first">ცხელი ზაფხულის WONDER სიგრილე ჩვენთან ერთად</p>
-                <p class="main-second">მოგზაურობა დაუვიწყარ სვანეთში</p>
+    <div class="row ">
+        <div class="col-lg-12 col-md-12 col-xl-12 header-slider ">
+            <div class="header-slider-text ">
+                <p>ცხელი ზაფხულის WONDER სიგრილე ჩვენთან ერთად</p>
+                <p>მოგზაურობა დაუვიწყარ სვანეთში</p>
             </div>
+            <img src="images/carousel.png" alt="carousel">
         </div>
 
     </div>
+    <div class="row">
+        <div class="tour-info  ">
+            <div class="col-md-3 col-sm-2 detail-info detail-info-garage">
+                <img src="images/garage-icon.png" alt="">
+                <p>ტრანსპორტი</p>
 
+            </div>
+            <div class="col-md-3 col-sm-2 detail-info detail-info-hotel">
+                <img src="images/hotel-icon.png" alt="">
+                <p>სასტუმროები</p>
+
+            </div>
+            <div class="col-md-3 col-sm-2 detail-info detail-info-transfer">
+                <img src="images/transfer-icon.png" alt="">
+                <p>ტრანსფერი</p>
+
+            </div>
+            <div class="col-md-3 col-sm-2 detail-info detail-info-tourgude">
+                <img src="images/tourguide-icon.png" alt="">
+                <p>ტურის გიდი</p>
+            </div>
+
+        </div>
+    </div>
 </div>
 
 </body>
