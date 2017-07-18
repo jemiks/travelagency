@@ -5,15 +5,22 @@
     padding: 0;
 }
 
+.main-container {
+    width: 100%;
+    margin: 0 auto;
+}
+
 .left-logo {
     float: left;
     margin-top: 8px;
+    width: 10%;
     /*margin-left: 157px;*/
     /*margin-top: 8px;*/
 
 }
 
 .left-text p {
+    float: right;
     font-weight: bold;
     font-size: 30px;
     margin-top: 29px;
@@ -22,6 +29,7 @@
 
 .left-nav {
     margin-left: 157px;
+    display: inline-block;
 
 }
 
@@ -33,10 +41,11 @@
 
 /*marjvena mxares elementis ganlageba*/
 .right-nav {
-    float: left;
+    float: right;
     margin-top: 34px;
     margin-left: 10px;
     position: relative;
+    width: 60%;
 }
 
 .nav-elements {
@@ -131,7 +140,12 @@
 width: 100%;
 
 }
-
+.mtavari{
+    width: 1200px;
+    height:500px;
+    margin:0 auto;
+    border:1px solid black;
+}
 .header-slider-text {
     position: absolute;
     display: inline-block;
@@ -149,12 +163,21 @@ width: 100%;
 
 }
 
-.tour-info {
+
+.main-info{
+    position: relative;
+    width: 100%;
     display: block;
-    float: left;
+
+}
+
+.tour-info {
+    display: flex;
+    /* float: left; */
     margin-top: -100px;
-    position: static;
-    margin-left: 155px;
+    /* position: static; */
+    /* margin-left: -60px; */
+    justify-content: center;
 
 }
 
@@ -190,3 +213,4 @@ width: 100%;
 .detail-info-tourgude{
     background-image: url("../images/tourguide.png");
 }
+
