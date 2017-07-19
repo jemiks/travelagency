@@ -141,13 +141,6 @@
 
 }
 
-.mtavari {
-    width: 1200px;
-    height: 500px;
-    margin: 0 auto;
-    border: 1px solid black;
-}
-
 .header-slider-text {
     position: absolute;
     display: inline-block;
@@ -224,7 +217,96 @@
     background-image: url("../images/tourguide.png");
 }
 
-
-.detail-info:hover{
+.detail-info:hover {
     background-color: red;
+}
+
+.wonder-tour-info {
+    margin-top: 59px;
+
+}
+
+.wonder-tour-info p:first-child {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    width: 200px;
+    border-bottom: 2px solid black;
+    padding-bottom: 13px;
+
+}
+
+.wonder-tour-info p:nth-child(2) {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* margin-top: 29px; */
+    font-size: 22px;
+    width: 674px;
+    margin: 29px auto;
+    color: #737373;
+}
+
+.wonder-tour-main {
+    display: flex;
+    justify-content: center;
+    margin-top: 49px;
+
+}
+
+.wonder-tour-main img {
+    display: flex;
+    margin: 0 auto;
+}
+
+.wonder-main {
+    width: 260px;
+    height: 250px;
+    background-color: #ebebeb;
+    margin-top: 20px;
+    margin-left: 16px;
+    overflow: hidden;
+}
+
+.wonder-header {
+    text-align: center;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.wonder-main p:nth-child(2) {
+    text-align: center;
+    font-size: 16px;
+    width: 194px;
+    margin-left: 33px;
+    color: #000000;
+}
+
+.wonder-regular p:first-child {
+    color: #ffa902;
+    font-size: 25px;
+}
+
+.wonder-adventure {
+    color: #005400;
+}
+
+.wonder-medic {
+    color: #00b7d8;
+}
+
+.wonder-different {
+    color: #74028d;
+}
+
+.wonder-main a {
+    width: 100px;
+    height: 20px;
+
 }
