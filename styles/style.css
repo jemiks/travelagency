@@ -137,15 +137,17 @@
 
 /*hoveris dasasruli*/
 .header-slider img {
-width: 100%;
+    width: 100%;
 
 }
-.mtavari{
+
+.mtavari {
     width: 1200px;
-    height:500px;
-    margin:0 auto;
-    border:1px solid black;
+    height: 500px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
+
 .header-slider-text {
     position: absolute;
     display: inline-block;
@@ -157,14 +159,13 @@ width: 100%;
     color: #ffffff;
 }
 
-.header-slider-text :first-child{
+.header-slider-text :first-child {
     color: white;
     font-weight: bold;
 
 }
 
-
-.main-info{
+.main-info {
     position: relative;
     width: 100%;
     display: block;
@@ -188,10 +189,22 @@ width: 100%;
     height: 250px;
 }
 
-.detail-info img{
+.detail-info img {
     width: 100px;
     height: 100px;
-    margin: 61px;
+    /* margin: 61px; */
+    display: flex;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+.detail-info p {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 25px;
+    color: #ffffff;
+
 }
 
 .detail-info-hotel {
@@ -199,18 +212,19 @@ width: 100%;
     display: inline-block;
 }
 
-
-
 .detail-info-garage {
     background-image: url('../images/garage.png');
 }
 
-.detail-info-transfer{
+.detail-info-transfer {
     background-image: url("../images/tranfer.png");
 }
 
-
-.detail-info-tourgude{
+.detail-info-tourgude {
     background-image: url("../images/tourguide.png");
 }
 
+
+.detail-info:hover{
+    background-color: red;
+}
