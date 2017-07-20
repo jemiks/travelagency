@@ -264,7 +264,6 @@
 
 .wonder-main {
     width: 260px;
-    height: 250px;
     background-color: #ebebeb;
     margin-top: 20px;
     margin-left: 16px;
@@ -305,8 +304,125 @@
     color: #74028d;
 }
 
-.wonder-main a {
-    width: 100px;
-    height: 20px;
+.wonder-regular button {
+    background-color: #ffa902;
+}
 
+.wonder-adventure button {
+    background-color: #005400;
+}
+
+.wonder-medic button {
+    background-color: #00b7d8;
+}
+
+.wonder-different button {
+    background-color: #74028d;
+}
+
+.wonder-main button {
+    display: flex;
+    margin: 0 auto;
+    width: 175px;
+    height: 40px;
+    margin-top: 24px;
+    margin-bottom: 22px;
+    border-radius: 9px;
+}
+
+.wonder-main a {
+    display: block;
+    text-decoration: none;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 2px;
+    color: #ffffff;
+}
+
+.header-gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 49px;
+    margin-left: 20px;
+}
+
+.header-gallery-text {
+    width: 340px;
+    text-align: center;
+    margin-left: 38px;
+    margin-top: 12px;
+
+}
+
+.header-gallery-text p {
+    font-size: 33px;
+    font-weight: bold;
+}
+
+.header-gallery-images img {
+    margin-right: 14px;
+    width: 64px;
+}
+
+.main-gallery {
+    display: flex;
+    justify-content: center;
+    margin-top: 41px;
+
+}
+
+.main-gallery-column {
+    margin-right: 14px;
+    margin-top: 5px;
+}
+
+
+
+.main-gallery-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.main-gallery-list img:first-child{
+    margin-bottom: 15px;
+}
+
+.main-gallery-list2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-gallery-list2 img:first-child{
+    margin-bottom: 15px;
+}
+
+
+.header-gallery2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    margin-top: 41px;
+
+
+}
+
+.header-gallery-button {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.header-gallery-button button{
+    width: 336px;
+    height: 40px;
+    background-color: #656565;
+    border-radius: 3px;
+}
+
+.header-gallery-button a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #ffffff;
 }
