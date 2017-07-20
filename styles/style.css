@@ -370,6 +370,7 @@
     display: flex;
     justify-content: center;
     margin-top: 41px;
+    margin-left: 60px;
 
 }
 
@@ -378,15 +379,13 @@
     margin-top: 5px;
 }
 
-
-
 .main-gallery-list {
     display: flex;
     flex-direction: column;
     margin-right: 15px;
 }
 
-.main-gallery-list img:first-child{
+.main-gallery-list img:first-child {
     margin-bottom: 15px;
 }
 
@@ -395,17 +394,15 @@
     flex-direction: column;
 }
 
-.main-gallery-list2 img:first-child{
+.main-gallery-list2 img:first-child {
     margin-bottom: 15px;
 }
-
 
 .header-gallery2 {
     display: flex;
     justify-content: center;
     flex-direction: row-reverse;
     margin-top: 41px;
-
 
 }
 
@@ -414,7 +411,7 @@
     margin-top: 12px;
 }
 
-.header-gallery-button button{
+.header-gallery-button button {
     width: 336px;
     height: 40px;
     background-color: #656565;
@@ -425,4 +422,36 @@
     text-decoration: none;
     font-size: 28px;
     color: #ffffff;
+}
+
+.contact-info {
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info p:first-child {
+    text-align: center;
+    color: #212121;
+    font-size: 33px;
+    font-weight: bold;
+    width: 230px;
+    border-bottom: 2px solid black;
+    padding-bottom: 13px;
+
+}
+
+.contact-info p:nth-child(2) {
+    font-size: 21px;
+    width: 450px;
+    text-align: center;
+    margin-top: 11px;
+    color: #737373;
+}
+
+.detail-contact{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 60px;
 }
