@@ -431,6 +431,10 @@
     align-items: center;
 }
 
+.contact-map-info {
+    margin-top: 15px;
+}
+
 .contact-info p:first-child {
     text-align: center;
     color: #212121;
@@ -450,8 +454,158 @@
     color: #737373;
 }
 
-.detail-contact{
+.detail-contact {
     display: flex;
     justify-content: flex-start;
     margin-top: 60px;
+}
+
+.contact-us {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+
+}
+
+.contact-us-info {
+    list-style: none;
+
+}
+
+.contact-us-info input[placeholder] {
+    font-size: 16px;
+    color: #8a8a8a;
+    padding-bottom: 5px;
+}
+
+.contact-us-info input[type="text"] {
+    border: 0;
+    border-bottom: 2px solid #8a8a8a;
+    outline: 0;
+    margin-bottom: 39px;
+
+}
+
+.contact-us-info textarea {
+    border: 0;
+    border-bottom: 2px solid #8a8a8a;
+    outline: 0;
+    margin-bottom: 32px;
+    width: 419px;
+    height: 10%;
+}
+
+.contact-map iframe {
+    width: 517px;
+    height: 260px;
+}
+
+.contact-map {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+.contact-map p, li {
+    font-size: 16px;
+    color: #8d8d8d;
+}
+
+.contact-map-info-last ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.contact-map-info-last li:nth-child(2) {
+    margin-left: 21px;
+}
+
+.contact-map-info-last li {
+    margin-top: 12px;
+}
+
+.btn-send button {
+    width: 271px;
+    height: 40px;
+    text-align: center;
+    background-color: #656565;
+    border: 3px;
+}
+
+.btn-send img {
+    float: left;
+    margin: 5px;
+
+}
+
+.btn-send p {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+footer {
+    margin-top: 94px;
+    background-color: #b7b7b7;
+    width: 100%;
+}
+
+.site-map {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 21px;
+}
+
+.site-map div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.site-map a {
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 21px;
+}
+
+.site-map li {
+    list-style: none;
+    margin-left: 10px;
+    padding-bottom: 21px;
+    color: #454545;
+}
+
+.site-map li>a{
+    color: #454545;
+}
+
+.dcg-creators {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+/*დეტალური გვერდი ტურებისთვის*/
+.header-tour-text{
+    margin: 0 auto;
+}
+
+
+.header-tour-text p:first-child{
+    margin-top: 125px;
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: bold;
+}
+.header-tour-text p:nth-child(2){
+    font-size: 29px;
+    color: #ffffff;
+    margin-top: 27px;
+
+
 }
