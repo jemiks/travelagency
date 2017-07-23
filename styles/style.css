@@ -136,6 +136,7 @@
 /*}*/
 
 /*hoveris dasasruli*/
+
 .header-slider img {
     width: 100%;
 
@@ -580,7 +581,7 @@ footer {
     color: #454545;
 }
 
-.site-map li>a{
+.site-map li > a {
     color: #454545;
 }
 
@@ -591,21 +592,97 @@ footer {
 }
 
 /*დეტალური გვერდი ტურებისთვის*/
-.header-tour-text{
+.header-tour-text {
     margin: 0 auto;
 }
 
-
-.header-tour-text p:first-child{
+.header-tour-text p:first-child {
     margin-top: 125px;
     color: #ffffff;
     font-size: 33px;
     font-weight: bold;
 }
-.header-tour-text p:nth-child(2){
+
+.header-tour-text p:nth-child(2) {
     font-size: 29px;
     color: #ffffff;
     margin-top: 27px;
 
+}
 
+.tours {
+    display: flex;
+}
+
+.tours-slider {
+    display: flex;
+    margin-bottom: 41px;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.tours-detail {
+    display: flex;
+    flex-direction: column;
+    margin-right: 36px;
+}
+
+.tours-detail div {
+    margin-bottom: 7px;
+    border-bottom-right-radius: 5px;
+
+}
+
+.tours-left-info {
+    width: 403px;
+    height: 180px;
+    background-color: #ebebeb;
+    display: flex;
+}
+
+.div1 {
+    width: 40%;
+
+}
+
+.tours-main-info {
+
+    margin-top: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tours-main-info img {
+    margin-bottom: 21px;
+
+}
+
+.tours-main-info p {
+    font-size: 25px;
+
+}
+
+.tours-button {
+    display: flex;
+    margin-top: 14px;
+}
+
+.tours-button button:first-child {
+    width: 178px;
+    height: 37px;
+    border-radius: 3px;
+    font-size: 20px;
+
+}
+
+.tours-button button:nth-child(2) {
+    width: 37px;
+    margin-left: 7px;
+    border-radius: 3px;
+}
+
+a {
+    text-decoration: none;
 }
