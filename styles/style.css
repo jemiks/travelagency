@@ -54,10 +54,10 @@
 
 .nav-elements a:hover {
     text-decoration: none;
-    color: #cacaca;
+    color: #b7b7b7;
     padding-bottom: 7px;
     border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
-
+    border-bottom: 2px solid;
 }
 
 .nav-elements li {
@@ -100,6 +100,10 @@
 .nav-lang img {
     width: 26px;
     height: 18px;
+}
+
+.nav-lang img:active{
+    filter: grayscale(100%);
 }
 
 /*.lang-geo {*/
@@ -218,8 +222,12 @@
     background-image: url("../images/tourguide.png");
 }
 
-.detail-info:hover {
-    background-color: red;
+/*.detail-info:hover {*/
+    /*background-color: green;*/
+/*}*/
+
+.info-after:hover{
+    margin-top: -5px;
 }
 
 .wonder-tour-info {
@@ -235,9 +243,9 @@
     font-size: 33px;
     font-weight: bold;
     width: 200px;
-    border-bottom: 2px solid black;
-    padding-bottom: 13px;
-
+    border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
+    border-bottom: 2px solid;
+    padding-bottom: 5px;
 }
 
 .wonder-tour-info p:nth-child(2) {
@@ -329,6 +337,7 @@
     margin-top: 24px;
     margin-bottom: 22px;
     border-radius: 9px;
+    border: 0;
 }
 
 .wonder-main a {
@@ -347,6 +356,10 @@
     justify-content: center;
     margin-top: 49px;
     margin-left: 20px;
+}
+
+.header-gallery-images {
+    display: flex;
 }
 
 .header-gallery-text {
@@ -417,6 +430,7 @@
     height: 40px;
     background-color: #656565;
     border-radius: 3px;
+    border: 0;
 }
 
 .header-gallery-button a {
@@ -442,8 +456,8 @@
     font-size: 33px;
     font-weight: bold;
     width: 230px;
-    border-bottom: 2px solid black;
-    padding-bottom: 13px;
+   border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
+    border-bottom: 2px solid;
 
 }
 
@@ -654,8 +668,6 @@ footer {
     align-items: center;
 }
 
-
-
 .tours-main-info p {
     font-size: 25px;
     margin-top: 21px;
@@ -680,7 +692,14 @@ footer {
     margin-left: 7px;
     border-radius: 3px;
 }
-.tours-button a{
+
+.tours-button a {
     text-decoration: none;
     color: #ffffff;
+}
+
+.tours-info-image {
+    display: block;
+    width: 336px;
+    height: 172px;
 }
