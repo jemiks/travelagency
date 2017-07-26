@@ -77,14 +77,37 @@ nav {
     display: flex;
     justify-content: center;
     width: 100%;
+    border-bottom: 2px solid black;
 }
 
-.header-image{
-
+.header-image img{
+    display: block;
 }
+
 .header-text{
     position: absolute;
     text-align: center;
+    margin-top: 127px;
+    color: #ffffff;
+}
+
+.header-text p:first-child{
+    font-size: 29px;
+    font-weight: bold;
+
+}
+.header-text2{
+    margin-top: 29px;
+    font-size: 29px;
+}
+
+.header-btn{
+        margin-top: 64px;;
+}
+
+.header-btn p{
+    margin-top: 20px;
+    font-size: 12.5px;
 }
 
 .detail-info{
