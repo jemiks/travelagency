@@ -56,7 +56,7 @@
     text-decoration: none;
     color: #b7b7b7;
     padding-bottom: 7px;
-    border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
+     border-image: linear-gradient(to right, #005400 25%, #1b1464 25%, #1b1464 50%, #9e005d 50%, #9e005d 75%, #fff200 75%) 2;
     border-bottom: 2px solid;
 }
 
@@ -106,40 +106,6 @@
     filter: grayscale(100%);
 }
 
-/*.lang-geo {*/
-/*background: url("../images/flag-georgia.png");*/
-/*width: 26px;*/
-/*height: 18px;*/
-/*}*/
-
-/*.lang-geo:hover {*/
-/*background: url("../images/flag-rus.png");*/
-
-/*}*/
-
-/*.lang-ru {*/
-/*background: url("../images/flag-rus.png");*/
-/*width: 28px;*/
-/*height: 18px;*/
-/*}*/
-
-/*.lang-ru:hover {*/
-/*background: url("../images/flag-georgia.png");*/
-
-/*}*/
-
-/*.lang-en {*/
-/*background: url("../images/flag-en.png");*/
-/*width: 26px;*/
-/*height: 18px;*/
-/*}*/
-
-/*.lang-en:hover {*/
-/*background: url("../images/flag-rus.png");*/
-
-/*}*/
-
-/*hoveris dasasruli*/
 
 .header-slider img {
     width: 100%;
@@ -151,7 +117,6 @@
     display: inline-block;
     text-align: center;
     width: 100%;
-    /*margin-left: 251px;*/
     margin-top: 127px;
     font-size: 29px;
     color: #ffffff;
@@ -160,6 +125,10 @@
 .header-slider-text :first-child {
     color: white;
     font-weight: bold;
+
+}
+
+.main-carousel{
 
 }
 
@@ -240,7 +209,7 @@
     font-size: 33px;
     font-weight: bold;
     width: 200px;
-    border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
+     border-image: linear-gradient(to right, #005400 25%, #1b1464 25%, #1b1464 50%, #9e005d 50%, #9e005d 75%, #fff200 75%) 2;
     border-bottom: 2px solid;
     padding-bottom: 5px;
 }
@@ -453,7 +422,7 @@
     font-size: 33px;
     font-weight: bold;
     width: 230px;
-    border-image: linear-gradient(to right, grey 25%, yellow 25%, yellow 50%, red 50%, red 75%, teal 75%) 5;
+     border-image: linear-gradient(to right, #005400 25%, #1b1464 25%, #1b1464 50%, #9e005d 50%, #9e005d 75%, #fff200 75%) 2;
     border-bottom: 2px solid;
 
 }
@@ -628,7 +597,8 @@ footer {
 .tours-slider {
     display: flex;
     margin-bottom: 41px;
-    border-bottom: 2px solid black;
+    border-image:linear-gradient(to right, #ed1c24 20%, #005400 20%, #005400 40%, #1b1464 40%, #1b1464 60%, #9e005d 60%, #9e005d 80%,#fff200 80%) 2; ;
+    border-bottom: 6px solid;
     width: 100%;
 }
 
@@ -793,4 +763,8 @@ footer {
 .other-services{
     display: flex;
     justify-content: center;
+}
+
+.about-us-main{
+ background-image: url("");
 }
