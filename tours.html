@@ -5,7 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeoWonder</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="material_icons/font-awesome/css/font-awesome.min.css">
+
+    <script>
+        function detail_inf() {
+            var x = document.getElementById("dtl-inf");
+            if (x.style.display === 'none') {
+                x.style.display = 'block';
+            } else {
+                x.style.display = 'none';
+            }
+        }
+    </script>
 </head>
+
 <body>
 <div class="main-container">
     <div class="main-nav">
@@ -51,9 +64,12 @@
                     <img src="images/tours-regular-icon.png" alt="">
                     <p style="color: #ffa902">რეგულარული</p>
                     <div class="tours-button">
-                        <button style="background-color: #ffa902;"><a href="#">ამოირჩიე</a></button>
-                        <i class="material-icons">&#xE909;</i>
+                        <button style="background-color: #ffa902;"><a href="#">ამოირჩიე</a>
+                        </button>
+                        <button><i class="fa fa-plus color-icon fa-3x" aria-hidden="true"></i></button>
                     </div>
+
+
                 </div>
             </div>
             <div class="wonder-tours tours-left-info">
@@ -64,7 +80,7 @@
                     <p style="color: #005400">სათავგადასავლო</p>
                     <div class="tours-button">
                         <button style="background-color: #005400;"><a href="#">ამოირჩიე</a></button>
-                        <button><a href="#"></a></button>
+                        <button><i class="fa fa-plus color-icon fa-3x" aria-hidden="true"></i></button>
                     </div>
                 </div>
 
@@ -77,7 +93,7 @@
                     <p style="color:#00bff3;">რეგულარული</p>
                     <div class="tours-button">
                         <button style="background-color: #00bff3;"><a href="#">ამოირჩიე</a></button>
-                        <button><a href="#"><img src="images/minus.png" alt=""></a></button>
+                        <button><i class="fa fa-plus color-icon fa-3x" aria-hidden="true"></i></button>
                     </div>
                 </div>
             </div>
@@ -89,7 +105,9 @@
                     <p style="color: #74028d">რეგულარული</p>
                     <div class="tours-button">
                         <button style="background-color: #74028d;"><a href="#">ამოირჩიე</a></button>
-                        <button><a href="#"></a></button>
+
+                        <button><i class="fa fa-plus color-icon fa-3x" aria-hidden="true"></i></button>
+
                     </div>
                 </div>
             </div>
@@ -105,7 +123,9 @@
                     <p>ხანგრძლივობა: <span>2 დღე</span></p>
                     <p>მგზავრები: <span>4-8 ადამიანი</span></p>
                     <div class="tours-btn">
-                        <button><a href="#">დეტალურად ნახვა</a></button>
+                       <button>
+                            <a class="btn-txt" href="#">დეტალურად ნახვა</a>
+                        </button>
                     </div>
                 </div>
             </div>
