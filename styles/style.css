@@ -778,7 +778,6 @@ footer {
     justify-content: center;
 }
 
-
 /*galery style*/
 .service-header {
     display: flex;
@@ -814,3 +813,198 @@ footer {
     font-size: 29px;
     text-align: center;
 }
+
+/*start of main photos*/
+.main-photo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.left-img {
+    width: 213px;
+    height: 403px;
+    margin-right: 28px;
+    border: 2px solid yellow;
+}
+
+.center-img, .right-img {
+    display: flex;
+    flex-direction: column;
+    width: 385px;
+    height: 410px;
+}
+
+.first-photo img, .second-photo img {
+    width: 385px;
+    height: 195px;
+    border: 0;
+}
+
+.first-photo, .second-photo {
+    width: 385px;
+    height: 195px;
+}
+
+.second-photo {
+    margin-top: 15px;
+
+}
+
+.right-img {
+    margin-left: 13px;
+}
+
+.other-details {
+    display: flex;
+    justify-content: center;
+
+}
+
+.other-photos {
+    margin-left: 15px;
+}
+
+.other-photos img {
+    width: 385px;
+    height: 195px;
+}
+
+/*end photos*/
+
+/*start videos*/
+.main-video {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 76px;
+}
+
+.right-video {
+    width: 213px;
+    height: 403px;
+    border: 2px solid yellow;
+    margin-left: 28px;
+}
+
+.center-video {
+    margin-left: 13px;
+}
+
+/*end videos*/
+/*start wonder tour text*/
+.wonder-tours {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.wonder-tours p:first-child {
+    color: #212121;
+    font-size: 33px;
+    font-weight: bold;
+    border-image: linear-gradient(to right, #005400 25%, #1b1464 25%, #1b1464 50%, #9e005d 50%, #9e005d 75%, #fff200 75%) 2;
+    border-bottom: 5px solid;
+    padding-bottom: 13px;
+}
+
+.wonder-tours p:nth-child(2) {
+    font-size: 20px;
+    color: #737373;
+    width: 680px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/*end wonder tour text*/
+
+/*create wonder tours poll*/
+.wonder-tours-add {
+    display: flex;
+    justify-content: center;
+    margin-top: 57px;
+
+}
+
+.detail-wonder-tours {
+    margin-left: 16px;
+}
+
+.wonder-image {
+    display: flex;
+    justify-content: center;
+}
+
+.wonder-container {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px;
+    margin-top: 20px;
+
+}
+
+.wonder-container p:first-child {
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.wonder-container p:nth-child(2) {
+    font-size: 16px;
+    width: 202px;
+    height: 118px;
+    text-align: center;
+    margin-top: 22px;
+}
+
+.wonder-container button {
+    width: 178px;
+    height: 37px;
+    border: 0px;
+    border-radius: 3px;
+    margin-top: 24px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.regular p:first-child {
+    color: #ffa902;
+
+}
+
+.regular button {
+    background-color: #ffa902;
+}
+
+.adventure p:first-child {
+    color: #005400;
+}
+
+.adventure button {
+    background-color: #005400;
+}
+
+.medic p:first-child {
+    color: #00b7d8;
+}
+
+.medic button {
+    background-color: #00b7d8;
+}
+
+.different p:first-child {
+    color: #74028d;
+}
+
+.different button {
+    background-color: #74028d;
+}
+
+/*end wonder tour pols*/
