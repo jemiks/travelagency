@@ -137,7 +137,17 @@ nav {
 }
 
 .main-carousel {
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-image: linear-gradient(to right, #ed1c24 15%, #005400 15%, #005400 30%, #1b1464 30%, #1b1464 45%, #9e005d 45%, #9e005d 60%, #fff200 60%, #fff200 80%, #00bff3 80%) 2;
+    border-bottom: 5px solid;
+    margin-top: 18px;
+    background-image: url(../images/about-header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 422px;
 }
 
 .main-info {
@@ -161,7 +171,7 @@ nav {
     height: 250px;
 }
 
-.detail-info img {
+.info-after img {
     width: 100px;
     height: 100px;
     /* margin: 61px; */
@@ -170,7 +180,7 @@ nav {
     margin-top: 54px;
 }
 
-.detail-info p {
+.info-after p {
     display: flex;
     justify-content: center;
     margin-top: 50px;
@@ -197,12 +207,53 @@ nav {
 }
 
 /*.detail-info:hover {*/
-/*background-color: green;*/
-/*}*/
+div.info-after:hover img {
+    opacity: 0.5;
+    margin-top: 20px;
+    position: relative;
+    transition: .2s easy;
+}
+
+div.info-after:hover p {
+    opacity: 0.5;
+    margin-top: 20px;
+
+}
+
+div.info-after:hover input {
+    display: block;
+
+}
 
 .info-after:hover {
-    margin-top: -40px;
+    transition: 2s;
 }
+
+div.info-after input {
+    position: absolute;
+    display: none;
+}
+
+.info-after input {
+    width: 178px;
+    height: 37px;
+    align-items: center;
+    display: flex;
+    margin-left: 40px;
+    border: 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 31px;
+}
+
+.info-after input[value] {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/*background-color: green;*/
+/*}*/
 
 .wonder-tour-info {
     margin-top: 59px;
@@ -362,16 +413,7 @@ nav {
 
 }
 
-.main-gallery-column {
-    margin-right: 14px;
-    margin-top: 5px;
-}
 
-.main-gallery-list {
-    display: flex;
-    flex-direction: column;
-    margin-right: 15px;
-}
 
 .main-gallery-list img:first-child {
     margin-bottom: 15px;
@@ -380,6 +422,7 @@ nav {
 .main-gallery-list2 {
     display: flex;
     flex-direction: column;
+    margin-left: 14px;
 }
 
 .main-gallery-list2 img:first-child {
@@ -999,12 +1042,8 @@ footer {
     background-color: #00b7d8;
 }
 
-.different p:first-child {
-    color: #74028d;
-}
-
-.different button {
-    background-color: #74028d;
-}
-
 /*end wonder tour pols*/
+
+.main-gallery-list{
+    margin-left: 14px;
+}
