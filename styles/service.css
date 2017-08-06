@@ -211,7 +211,7 @@ nav {
     align-items: flex-start;
 }
 
-.detail-img img{
+.detail-img img {
     width: 336px;
     height: 175px;
 }
@@ -227,7 +227,8 @@ nav {
     font-size: 25px;
     font-weight: bold;
 }
-.detail-info p:nth-child(2){
+
+.detail-info p:nth-child(2) {
     margin-top: 16px;
 }
 
@@ -406,8 +407,6 @@ footer {
     color: #454545;
 }
 
-
-
 .site-map li > a {
     color: #454545;
 }
@@ -418,4 +417,12 @@ footer {
     align-items: flex-end;
 
 }
+
 /*end of footer*/
+.info-detail {
+    width: 750px;
+    margin: 15px;
+    font-size: 16px;
+    margin-left: 46px;
+
+}
