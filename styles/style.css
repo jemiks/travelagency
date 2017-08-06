@@ -869,7 +869,16 @@ footer {
     width: 213px;
     height: 403px;
     margin-right: 28px;
-    border: 2px solid yellow;
+    border: 5px solid #ffa902;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-img p {
+    transform: rotate(270deg);
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .center-img, .right-img {
@@ -902,7 +911,7 @@ footer {
 .other-details {
     display: flex;
     justify-content: center;
-
+    margin-top: 21px;
 }
 
 .other-photos {
@@ -927,8 +936,17 @@ footer {
 .right-video {
     width: 213px;
     height: 403px;
-    border: 2px solid yellow;
+    border: 5px solid #ffa902;
     margin-left: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-video p {
+    transform: rotate(90deg);
+    font-size: 45px;
+    font-weight: bold;
 }
 
 .center-video {
@@ -1015,6 +1033,7 @@ footer {
     font-size: 20px;
     font-weight: bold;
     color: #ffffff;
+    background-color: #74028d;
 }
 
 .regular p:first-child {
@@ -1062,7 +1081,7 @@ footer {
     padding-bottom: 30px;
 }
 
-.info-detail p{
+.info-detail p {
     font-size: 16px;
     color: #343434;
 }
