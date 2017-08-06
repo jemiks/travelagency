@@ -1,0 +1,37 @@
+.main-gallery-image {
+  width: 385px;
+  height: 185px;
+  display: block;
+  position: relative;
+
+   img {
+    width: 385px;
+    height: 185px;
+  }
+
+  .inner-box {
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    transition: opacity .5s;
+
+    p {
+      color: #fff;
+      line-height: 100px;
+      font-family: 'arial';
+      text-align: center;
+      font-size: 25px;
+    }
+  }
+
+  &:hover {
+    .inner-box {
+      opacity: 1;
+      transition: opacity .5s;
+    }
+  }
+}
