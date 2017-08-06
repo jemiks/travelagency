@@ -721,10 +721,11 @@ footer {
 
 .tours-details {
     display: flex;
+    flex-direction: row;
 }
 
 .tours-detail-info div {
-    margin-bottom: 17px;
+    margin-bottom: 10px;
 }
 
 .tours-tdesxription {
@@ -754,6 +755,11 @@ footer {
     font-size: 25px;
     margin-bottom: 6px;
     color: #ffffff;
+}
+
+.tours-btn button:hover{
+    background-color: #b7b7b7;
+
 }
 
 .tours-tdesxription p {
@@ -1052,9 +1058,14 @@ footer {
 
 .info-detail {
     width: 750px;
-    height: 53px;
     display: flex;
     justify-content: center;
+    padding-bottom: 30px;
+}
+
+.info-detail p{
+    font-size: 16px;
+    color: #343434;
 }
 
 /*gallery photos*/
