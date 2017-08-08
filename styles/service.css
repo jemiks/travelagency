@@ -203,6 +203,7 @@ nav {
     margin-left: 61px;
     display: flex;
     margin-bottom: 25px;
+
 }
 
 .detail-img {
@@ -425,4 +426,20 @@ footer {
     font-size: 16px;
     margin-left: 46px;
 
+}
+
+.tour-hover {
+    display: flex;
+    justify-content: center;
+    width: 752px;
+    margin-left: 65px;
+    margin-top: 31px;
+    margin-bottom: 40px;
+
+}
+
+.tour-hover p{
+   font-size: 16px;
+    color: #343434;
+    font-weight: bold;
 }
