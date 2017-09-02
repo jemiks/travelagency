@@ -413,6 +413,10 @@ div.info-after input {
 
 }
 
+.main-gallery-image iframe{
+    border: 0;
+}
+
 .main-gallery-list2 {
     display: flex;
     flex-direction: column;
